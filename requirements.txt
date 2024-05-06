@@ -1,0 +1,7 @@
+discord
+aiosqlite
+colorama
+humanize
+requests
+ffmpeg
+discord.py[voice]
