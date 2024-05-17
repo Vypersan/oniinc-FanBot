@@ -51,6 +51,7 @@ class oniinc(commands.Bot):
 
     async def on_ready(self):
         utilities.print_info_line(f"{self.user} has connected to the gateaway")
+        utilities.write_log("Logma Nuts.")
         for extension in assets.modules:
             try:
                 await bot.load_extension(extension)
